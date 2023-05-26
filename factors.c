@@ -3,6 +3,11 @@
 
 typedef long long int ll;
 
+/**
+ * factorize - The function factorize a number
+ * 11 n: number and integer
+ * Return: null
+ */
 void factorize(ll n)
 {
 	for (ll i = 2; i * i <= n; i++)
@@ -19,6 +24,12 @@ void factorize(ll n)
 	}
 }
 
+/**
+ * main - main function
+ * @argv: file location
+ * @argc: number of arguments
+ * Return: void
+ */
 int main(int argc, char *argv[])
 {
 	if (argc < 2)
